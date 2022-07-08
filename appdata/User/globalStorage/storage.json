@@ -1,0 +1,41 @@
+{
+    "telemetry.machineId": "a0a5476ef6ea5069e7d29600bbde6b9e177c33649312c5066ac6f39d5e6259bf",
+    "theme": "vs-dark",
+    "themeBackground": "#282c34",
+    "windowSplash": {
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#282c34",
+            "editorBackground": "#282c34",
+            "titleBarBackground": "#282c34",
+            "activityBarBackground": "#2f333d",
+            "sideBarBackground": "#21252b",
+            "statusBarBackground": "#21252b",
+            "statusBarNoFolderBackground": "#21252b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 48,
+            "sideBarWidth": 256,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///e%3A/projects/hat",
+            "backupPath": "C:\\Users\\Компьютер\\AppData\\Roaming\\Code\\Backups\\4a0e7a7969249029c70d32523a8921fa",
+            "uiState": {
+                "mode": 0,
+                "x": 448,
+                "y": 156,
+                "width": 1024,
+                "height": 768
+            }
+        },
+        "openedWindows": []
+    }
+}

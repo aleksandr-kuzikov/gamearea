@@ -1,0 +1,4 @@
+{
+    "port": 5000,
+    "mongoConnect": "mongodb://docker:mongopw@localhost:49153"
+}

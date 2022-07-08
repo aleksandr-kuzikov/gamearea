@@ -1,0 +1,26 @@
+на вход
+*.docx || *.fb2
+
+в зависимоти от типа файла разные парсеры 
+у парсеров должен быть единый итерфейс взаимодействия
+
+на выход 
+объект 
+{
+    title,
+    description,
+    chapters,
+    pages
+}
+
+<?php 
+
+$file = $_FILES['somefile'];
+
+$fileContent = getFileContent($file);
+
+$book = new BookParser($file);
+
+$parsedBook = $book.parse();
+
+?>

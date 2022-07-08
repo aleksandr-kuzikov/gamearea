@@ -1,0 +1,8 @@
+const LoginRegister = () => {
+
+    return(
+        <>
+            
+        </>
+    )
+}
