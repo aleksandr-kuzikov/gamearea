@@ -1,4 +1,5 @@
 {
     "port": 5000,
-    "mongoConnect": "mongodb://docker:mongopw@localhost:49153"
+    "mongoConnect": "mongodb://docker:mongopw@localhost:49153",
+    "jwtKey": "1a2b-3c4d-5e6f-7g8h"
 }

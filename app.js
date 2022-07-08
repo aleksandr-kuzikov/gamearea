@@ -6,9 +6,13 @@ const app = express()
 
 const PORT = config.get('port')
 
+app.use('/api', require('./routes/api'))
+
 async function start() {
     try {
-        await mongoose.connect(config.get('mongoConnect'), {})
+        await mongoose.connect(config.get('mongoConnect'))
+
+        app.listen(PORT, () => { console.log(`Server started on port ${PORT}`) })
     } catch(e) {
         console.log(e.message)
         process.exit(1)
@@ -16,7 +20,3 @@ async function start() {
 }
 
 start()
-
-app.listen(PORT, () => {
-    console.log(`Server started on port ${PORT}`)
-})
